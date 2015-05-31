@@ -8,14 +8,29 @@ module.exports = function(app) {
         {
           id: 1,
           title: "Complete Ember.js Tutorial",
+          author: 1
         },
         {
           id: 2,
           title: "Checkout some more ember stuff",
+          author: 2
         },
         {
           id: 3,
           title: "Solve world hunger (with Ember)",
+          author: 1
+        }
+      ],
+      'authors': [
+        {
+          id: 1,
+          name: 'Toma',
+          // posts: [1,3]
+        },
+        {
+          id: 2,
+          name: 'Author2',
+          // posts: [2]
         }
       ]
     });
