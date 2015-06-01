@@ -30,7 +30,7 @@ module.exports = function(app) {
     {
       id: 1,
       title: "Complete Ember.js Tutorial",
-      body: 'body',
+      body: '*body*',
       author: 1,
       date: new Date(2014, 5, 4, 6, 0, 0)
     },
